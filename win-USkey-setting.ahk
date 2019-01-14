@@ -125,11 +125,6 @@ RAlt up::
     {
         IME_SET(1)
     }
-    Return
-
-;;;capslockをctrlへ変更
-CapsLock::Ctrl
-sc03a::Ctrl
 
 ;;;仮想デスクトップの移動,Ctrl Alt z or W
 ^!z::
