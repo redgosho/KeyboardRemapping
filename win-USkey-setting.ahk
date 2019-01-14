@@ -125,6 +125,7 @@ RAlt up::
     {
         IME_SET(1)
     }
+    Return
 
 ;;;仮想デスクトップの移動,Ctrl Alt z or W
 ^!z::
