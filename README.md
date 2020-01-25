@@ -1,4 +1,5 @@
-# win-USkey-setting
+# WindowsをUSキーボードで使う勢へ送る、AutoHotKeyを使ってaltかShiftでIME切り替えするスクリプト
+AutoHotKeyをインストールして上のスクリプトを適応すればaltワンストローク、shiftワンストロークでIMEの切り替えができて便利です。
 
 参考：[WindowsのAlt空打ちで日本語入力(IME)を切り替えるツールを作った](https://www.karakaram.com/alt-ime-on-off)
 
