@@ -3,6 +3,16 @@ AutoHotKeyをインストールして上のスクリプトを適応すればalt�
 
 参考：[WindowsのAlt空打ちで日本語入力(IME)を切り替えるツールを作った](https://www.karakaram.com/alt-ime-on-off)
 
+# 使い方
+「スクリプトを右クリック > Compile Script」を選択するとexeができる。
+exeを実行すればShiftかAltでIMEが切り替えできるようになる。￥
+
+exeを
+```
+shell:startup
+```
+で出てくるディレクトリに置いとけば、パソコン起動時に自動的に起動する。
+
 ## 概要
 ### IME-switcher_alt.ahk
 * 左 Alt キーの空打ちで IME を「英数」に切り替え
