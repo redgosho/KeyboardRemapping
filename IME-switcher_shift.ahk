@@ -1,11 +1,8 @@
 ﻿; 左右 Alt キーもしくはShiftキーの空打ちで IME の OFF/ON を切り替える
 ;
-; 左 Alt/Shift キーの空打ちで IME を「英数」に切り替え
-; 右 Alt/Shift キーの空打ちで IME を「かな」に切り替え
-; Alt/Shift キーを押している間に他のキーを打つと通常の Alt キーとして動作
-;
-; Author:     the6th   https://github.com/the6th/alt-ime-ahk
-; Original:     karakaram   http://www.karakaram.com/alt-ime-on-off
+; 左 Shift キーの空打ちで IME を「英数」に切り替え
+; 右 Shift キーの空打ちで IME を「かな」に切り替え
+; Shift キーを押している間に他のキーを打つと通常の Shift キーとして動作
 
 #Include IME.ahk
 
