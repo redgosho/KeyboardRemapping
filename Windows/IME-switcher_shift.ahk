@@ -5,6 +5,7 @@
 ; Shift キーを押している間に他のキーを打つと通常の Shift キーとして動作
 
 #Include IME.ahk
+#Include Move-virtual-desktop.ahk
 
 ; Razer Synapseなど、キーカスタマイズ系のツールを併用しているときのエラー対策
 #MaxHotkeysPerInterval 350
@@ -125,14 +126,3 @@ RShift up::
         IME_SET(1)
     }
     Return
-
-;;;仮想デスクトップの移動,Ctrl Alt z or W
-^!z::
-send,^#{Left}
-return
-
-^!x::
-send,^#{Right}
-return
-
-

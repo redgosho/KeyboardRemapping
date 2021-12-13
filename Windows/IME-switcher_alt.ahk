@@ -7,6 +7,7 @@
 ; Author:     karakaram   http://www.karakaram.com/alt-ime-on-off
 
 #Include IME.ahk
+#Include Move-virtual-desktop.ahk
 
 ; Razer Synapseなど、キーカスタマイズ系のツールを併用しているときのエラー対策
 #MaxHotkeysPerInterval 350
@@ -126,12 +127,3 @@ RAlt up::
         IME_SET(1)
     }
     Return
-
-;;;仮想デスクトップの移動,Ctrl Alt z or W
-^!z::
-send,^#{Left}
-return
-
-^!x::
-send,^#{Right}
-return
